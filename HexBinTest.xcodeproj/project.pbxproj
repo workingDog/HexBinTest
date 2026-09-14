@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		C72A6F64305775C1006D98F1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C72A6F63305775C1006D98F1 /* README.md */; };
+		C72A6F6630577BE5006D98F1 /* IMG1.png in Resources */ = {isa = PBXBuildFile; fileRef = C72A6F6530577BE5006D98F1 /* IMG1.png */; };
+		C72A6F6830577BEA006D98F1 /* IMG2.png in Resources */ = {isa = PBXBuildFile; fileRef = C72A6F6730577BEA006D98F1 /* IMG2.png */; };
 		C7BBC91C305684AC0060DF95 /* SwiftyH3 in Frameworks */ = {isa = PBXBuildFile; productRef = C7BBC91B305684AC0060DF95 /* SwiftyH3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C72A6F63305775C1006D98F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C72A6F6530577BE5006D98F1 /* IMG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG1.png; sourceTree = "<group>"; };
+		C72A6F6730577BEA006D98F1 /* IMG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG2.png; sourceTree = "<group>"; };
 		C7BBC90C3056843D0060DF95 /* HexBinTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexBinTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -37,6 +41,8 @@
 		C7BBC9033056843D0060DF95 = {
 			isa = PBXGroup;
 			children = (
+				C72A6F6730577BEA006D98F1 /* IMG2.png */,
+				C72A6F6530577BE5006D98F1 /* IMG1.png */,
 				C72A6F63305775C1006D98F1 /* README.md */,
 				C7BBC90E3056843D0060DF95 /* HexBinTest */,
 				C7BBC90D3056843D0060DF95 /* Products */,
@@ -116,7 +122,9 @@
 		C7BBC90A3056843D0060DF95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				C72A6F6630577BE5006D98F1 /* IMG1.png in Resources */,
 				C72A6F64305775C1006D98F1 /* README.md in Resources */,
+				C72A6F6830577BEA006D98F1 /* IMG2.png in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
