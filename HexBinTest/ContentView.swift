@@ -10,14 +10,9 @@ import SwiftyH3
 
 
 struct ContentView: View {
-    var body: some View {
-        H3GridMap()
-    }
-}
-
-struct H3GridMap: View {
     @State private var cells: [H3Cell] = []
     
+    // Tokyo
     @State private var cameraPosition: MapCameraPosition = .region(
         MKCoordinateRegion(
             center: CLLocationCoordinate2D(latitude: 35.681105, longitude:  139.780862),
@@ -25,15 +20,14 @@ struct H3GridMap: View {
         )
     )
 
-    private let resolution: H3Cell.Resolution = .res2
-
     var body: some View {
         Map(position: $cameraPosition) {
-            ForEach(cells, id: \.description) { cell in
-                let boundary = try? cell.boundary
-                MapPolygon(MKPolygon(boundary!))
-                    .foregroundStyle(.clear)
-                    .stroke(Color.black, lineWidth: 1)
+            ForEach(cells) { cell in
+                if let boundary = try? cell.boundary {
+                    MapPolygon(MKPolygon(boundary))
+                        .foregroundStyle(.clear)
+                        .stroke(Color.black, lineWidth: 1)
+                }
             }
         }
         .onMapCameraChange(frequency: .onEnd) { context in
