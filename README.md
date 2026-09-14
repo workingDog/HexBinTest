@@ -6,8 +6,8 @@ and the [SwiftyH3](https://github.com/pawelmajcher/SwiftyH3) "The Swifty way to 
 ## Screenshots
 
 <p float="left">
-  <img src="IMG1.PNG" width="200" height="400" /> 
-  <img src="IMG2" width="200" height="400" /> 
+  <img src="IMG1.png" width="200" height="400" /> 
+  <img src="IMG2.png" width="200" height="400" /> 
 </p>
 
 
