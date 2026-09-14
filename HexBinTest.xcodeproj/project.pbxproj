@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C72A6F64305775C1006D98F1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C72A6F63305775C1006D98F1 /* README.md */; };
 		C7BBC91C305684AC0060DF95 /* SwiftyH3 in Frameworks */ = {isa = PBXBuildFile; productRef = C7BBC91B305684AC0060DF95 /* SwiftyH3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C72A6F63305775C1006D98F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C7BBC90C3056843D0060DF95 /* HexBinTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexBinTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -35,6 +37,7 @@
 		C7BBC9033056843D0060DF95 = {
 			isa = PBXGroup;
 			children = (
+				C72A6F63305775C1006D98F1 /* README.md */,
 				C7BBC90E3056843D0060DF95 /* HexBinTest */,
 				C7BBC90D3056843D0060DF95 /* Products */,
 			);
@@ -113,6 +116,7 @@
 		C7BBC90A3056843D0060DF95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				C72A6F64305775C1006D98F1 /* README.md in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
