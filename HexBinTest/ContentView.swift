@@ -29,7 +29,7 @@ struct ContentView: View {
                 Map(position: $cameraPosition,
                     interactionModes: isDraggingVertex ? [] : [.all]
                 )
-                .onMapCameraChange(frequency: .continuous) { _ in
+                .onMapCameraChange(frequency: .continuous) { 
                     cameraRevision += 1
                 }
                 .onMapCameraChange(frequency: .onEnd) { context in

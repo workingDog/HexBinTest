@@ -34,6 +34,7 @@ struct H3Mesh {
 
         for face in faces {
             let ids = face.vertices
+            guard !ids.isEmpty else { continue }
             for index in ids.indices {
                 let start = ids[index]
                 let end = ids[(index + 1) % ids.count]
